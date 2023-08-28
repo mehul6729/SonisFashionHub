@@ -1,0 +1,171 @@
+@media screen and (max-width: 1350px) {
+    .header__h3 {
+        display: block;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+
+    .header__img_box {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+    .header__selections a {
+        padding: .5rem 1rem;
+    }
+
+    .header__img_box img {
+        width: 50%;
+    }
+
+    .header__heading h1{
+        margin-top: 40%;
+    } 
+}
+
+@media screen and (max-width: 1007px) {
+    .header__selections a {
+        font-size: .8rem;
+    }
+
+    .header__img_box img {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .header__selections a {
+        font-size: .7rem;
+    }
+
+    .header__img_box img {
+        width: 60%;
+    }
+
+    .header__heading h1{
+        margin-top: 50%;
+    } 
+
+}
+
+@media screen and (max-width: 860px) {
+    .phone {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .selection__phone:last-child {
+        margin-top: 2rem;
+    }
+
+    .header__selections a {
+        font-size: 1rem;
+    }
+
+    .header__img_box img {
+        width: 65%;
+    }
+
+    .location__bar a {
+        padding: 1.5rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 706px) {
+    .location__bar a {
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .location__bar a {
+        padding: .5rem;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .location__bar h3 .bi-arrow-right {
+        display: none;
+    }
+
+
+    .location__bar h3 .bi-arrow-down {
+        display: block;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .header__img_box img {
+        width: 70%;
+    }
+}
+
+
+
+    @media screen and (max-width: 560px) {
+        .header__selections a {
+            font-size: .7rem;
+        }
+
+        .navigation__background,
+        .navigation__button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+
+        .header__img_box img {
+            width: 85%;
+        }
+
+        .cardbor{
+            margin-left: 0;
+        }
+        
+
+    }
+
+    @media screen and (max-width: 450px) {
+
+        .header__heading h1{
+            margin-top: 40% ;
+        }
+        .header__selections a {
+            margin: 0 auto;
+            margin-bottom: .5rem;
+            display: block;
+            width: 50%;
+        }
+
+        .header__img_box img {
+            width:100%;
+        }
+
+        .header__box {
+            display: flex;
+            justify-content: center;
+        }
+
+        .phone {
+            display: none;
+        }
+
+        .desktop {
+            display: block;
+        }
+
+        .location__bar a {
+            padding: .2rem;
+            font-size: 1rem;
+        }
+
+    }
